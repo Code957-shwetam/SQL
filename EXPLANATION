@@ -1,0 +1,17 @@
+Explanation of Key Concepts Demonstrated:
+Creating Tables and Relationships: Showed how to design tables and create foreign key relationships between them.
+Inserting Data: Demonstrated how to insert data into tables.
+Basic Queries: Displayed querying skills using JOIN to retrieve data from multiple tables.
+Complex Queries: Included aggregate functions (AVG) and grouping data with GROUP BY.
+Subqueries: Used subqueries to filter results based on computed values.
+Indexes: Optimized query performance by creating indexes on columns frequently used in queries.
+Stored Procedures: Demonstrated advanced SQL with stored procedures to automate tasks.
+Transaction Management: Showed knowledge of transaction handling with commit and rollback for data integrity.
+This example covers essential SQL tasks encountered in hands-on experience with databases.
+
+
+
+
+
+
+
