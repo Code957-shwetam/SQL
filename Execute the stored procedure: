@@ -1,0 +1,1 @@
+CALL GiveRaise(1, 5); -- Give a 5% raise to employees in department 1 (HR)
