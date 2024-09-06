@@ -1,0 +1,6 @@
+CREATE PROCEDURE GiveRaise (IN dept_id INT, IN raise_percent DECIMAL(5, 2))
+BEGIN
+    UPDATE Employees
+    SET Salary = Salary + (Salary * (raise_percent / 100))
+    WHERE DepartmentID = dept_id;
+END;
