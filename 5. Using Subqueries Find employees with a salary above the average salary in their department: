@@ -1,0 +1,5 @@
+SELECT FirstName, LastName, Salary
+FROM Employees e
+WHERE Salary > (
+    SELECT AVG(Salary) FROM Employees WHERE DepartmentID = e.DepartmentID
+);
