@@ -1,0 +1,10 @@
+START TRANSACTION;
+
+UPDATE Employees SET Salary = Salary * 1.1 WHERE DepartmentID = 2;
+
+-- Simulate an error condition
+IF (SELECT COUNT(*) FROM Employees WHERE DepartmentID = 2) = 0 THEN
+    ROLLBACK;
+ELSE
+    COMMIT;
+END IF;
